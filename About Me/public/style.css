@@ -1,0 +1,270 @@
+*
+{
+    margin :0;
+    padding :0;
+}
+    
+.pp{
+    background: #000;
+}
+.col-md-6{
+   margin-top: 70px;
+}
+
+.card, .card-header{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 10px;
+    font-size: 18px; 
+    border-radius: 5px;   
+}
+.card{
+    box-shadow: 0 2px 25px rgba(110,130,208, .18);
+    border-radius: 10x;
+    
+}
+.btn-link{
+    width  : 100%;
+    height: 60px;
+    color: black;
+    font-weight: bold !important;
+    text-align: left !important;
+    text-decoration: none !important;
+}
+.card-body{
+    background: white;
+    font-size: 18px;
+}
+.btn-link::after{
+    content: '\2212';
+    width: 35px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    right: 15px;
+    top: 11px;
+    position: absolute ;
+}
+.btn-link.collapsed:after{
+    content: '\002B';
+    font-size: 18px;
+}
+.para{
+  font-size: 10px;
+}
+.btn-link:before{
+    content:'';
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    background:#000;
+    z-index: 1;
+    transform: rotate(45deg);
+    left :30px;
+    top : 46px;
+    
+}
+img {
+    width: 600px;
+    margin-top : 15px;
+}
+
+
+body{
+    background: rgba(218,218,218,1)
+  }
+  
+  a{
+    color: #111
+  }
+  
+  .photo{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+  
+  .photo img{
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    filter: grayscale(100%) contrast(120%);
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    display: block;
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-top: -10px;
+  }
+  
+  .photo:hover img{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+  }
+  
+  .photo .glow-wrap{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin-top: -10px;
+  }
+  
+  .photo .glow{
+    display: block;
+    position:absolute;
+    width: 40%;
+    height: 200%;
+    background: rgba(255,255,255,.2);
+    top: 0;
+    filter: blur(5px);
+    transform: rotate(45deg) translate(-450%, 0);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .photo:hover .glow{
+    transform: rotate(45deg) translate(450%, 0);
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .photo:hover img,
+  .photo:hover .glow-wrap{
+    margin-top: 0;
+  }
+  
+  h1{
+    position: absolute;
+    z-index: 1;
+    transform: translate(-25%, -65%);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  
+  /* Ends */
+  
+  #author{
+    font-family: Helvetica, Arial;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #888;
+  }
+  
+  #author:hover{
+    color: #111;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+  }
+  
+  p {
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  
+  /*  Checkout my other pens on  https://codepen.io/grohit/  */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+  }
+  
+  .h{
+    font-weight: 700;
+    text-align: center;
+    font-size:31px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+    margin-left: 45px;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  
+  /*  Checkout my other pens on  https://codepen.io/grohit/  */
+  .pp{
+      font-size: 18px;
+  }
+
+  .center{
+    text-align:center;
+  }
+  .Card{
+    height: 200px;
+    width: 0px;
+  }
+  .card2{
+    margin-left: 200px;
+    height: 5px;
+    margin-top: 20px;
+  }
+
+  .photo h1{
+    top: 300px;
+    color: aliceblue;
+  }
+  .Codechef{
+    border-radius: 5px;
+    width: 600px;
+  }
+  .profile{
+    margin-left: 20px;
+    height: 600px;
+    width: 400px;
+  }
+  .LL{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
